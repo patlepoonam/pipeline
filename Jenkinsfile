@@ -13,6 +13,6 @@ pipeline {
 	                 }}
 		stage('Deployment'){
 		   steps {
-		sh 'cp target/sample-declarative.war /home/poonam/Documents/Devops/apache-tomcat-9.0.82/webapps'
+		sh 'cp target/pipeline.war /home/poonam/Documents/Devops/apache-tomcat-9.0.82/webapps'
 			}}	
 }}
